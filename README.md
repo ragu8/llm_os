@@ -1,10 +1,10 @@
 # LLM OS
 
-LLM OS is an emerging operating system inspired by Andrej Karpathy's concept, designed to leverage AI models like OpenAI's GPT-4 for a wide range of tasks.
+LLM OS is an emerging operating system Designed to leverage AI models like OpenAI's GPT-4 for various tasks.
 
 ## Overview
 
-LLM OS acts as a kernel process facilitating problem-solving by coordinating various resources such as memory, computation tools, and external APIs. It integrates capabilities for reading/generating text, extensive knowledge across subjects, internet browsing, and utilizing existing software infrastructure.
+LLM OS acts as a kernel process facilitating problem-solving by coordinating resources such as memory, computation tools, and external APIs. It integrates capabilities for reading/generating text, extensive knowledge across subjects, internet browsing, and utilizing existing software infrastructure.
 
 ### Key Features
 
@@ -26,42 +26,42 @@ LLM OS acts as a kernel process facilitating problem-solving by coordinating var
 
 1. **Clone the Repository**
 
-   ```bash
+```bash
    git clone https://github.com/yourusername/llm-os.git
    cd llm-os
    
-   ```
+```
 2. **Create a Virtual Environment**
-  ```bash
+```bash
   python3 -m venv ~/.venvs/llmos
   source ~/.venvs/llmos/bin/activate
-  ```
+```
 3. **Install Dependencies**
-  ```bash
+```bash
   pip install -r requirements.txt
 
-  ```  
+```  
   
  4. **Set Up API Keys**
    Export your API keys for services. To use Exa for research, export your EXA_API_KEY (get it from [here](https://dashboard.exa.ai/api-keys))
-  ```bash
+```bash
   export OPENAI_API_KEY='your_openai_api_key_here'
   export EXA_API_KEY='your_exa_api_key_here'
-  ```  
+```  
   
 
 5. **Run PgVector (Docker Setup)**
-   ```
+```
    ./run_pgvector.sh
-   ```
+```
     
 6. **Launch the LLM OS App**
 
    Start the Streamlit app for LLM OS:
 
-   ```bash
+```bash
    streamlit run app.py
-   ```
+```
 
 7. **Access the App**
 
